@@ -9,6 +9,10 @@
     "react-dom": "^16.3.2"
   },
   "devDependencies": {
+    "typescript": "^2.8.3",
     "webpack-dev-server": "2.11.2"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
