@@ -7,6 +7,7 @@ $base-color: #294E80;
 
 main, footer, section, aside, article {
   padding: 30px;
+  box-sizing: border-box;
   h1, h2, h3, h4, h5 {
     margin: 0 0 30px;
   }
