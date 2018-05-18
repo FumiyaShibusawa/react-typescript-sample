@@ -8,7 +8,7 @@ if (todolist_root) {
   render(
     <div>
       <TodoList todolist_name="TodoListだよ" status="open" />
-      <Todo  todo_name="TodoListだよ" status="open" />
+      <Todo  todo_name="Todoだよ" status="open" />
     </div>,
     todolist_root
   )
