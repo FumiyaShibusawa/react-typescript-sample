@@ -8,7 +8,7 @@ interface TodoProps {
 class Todo extends React.Component<TodoProps, {}> {
   render(){
     return (
-      <div>
+      <div className="todo_component">
         <ul>
           <li>
             <div>{ this.props.status }</div>
