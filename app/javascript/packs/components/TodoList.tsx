@@ -8,7 +8,7 @@ interface TodoListProps {
 class TodoList extends React.Component<TodoListProps, {}> {
   render(){
     return (
-      <div>
+      <div className="todolist_component">
         <ul>
           <li>
             <div>{ this.props.status }</div>
