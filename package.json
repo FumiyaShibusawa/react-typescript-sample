@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "name": "react-typescript-sample",
+=======
+  "name": "react-redux-todoapp",
+>>>>>>> Stashed changes
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",

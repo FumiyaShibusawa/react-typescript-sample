@@ -5,7 +5,11 @@ services:
       context: .
       dockerfile: ./containers/app/Dockerfile
     volumes:
+<<<<<<< Updated upstream
       - .:/react-typescript-sample:cached
+=======
+      - .:/react-redux-todoapp:cached
+>>>>>>> Stashed changes
       - bundle:/usr/local/bundle
     ports:
       - "${EXTERNAL_RAILS_PORT:-5055}:5055"

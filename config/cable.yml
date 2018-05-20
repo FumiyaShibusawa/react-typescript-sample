@@ -7,4 +7,8 @@ test:
 production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+<<<<<<< Updated upstream
   channel_prefix: react-typescript-sample_production
+=======
+  channel_prefix: react-redux-todoapp_production
+>>>>>>> Stashed changes
